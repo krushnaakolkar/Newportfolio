@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <!-- Cursor Animation -->
+        <div class="cursor-dot" id="cursor-dot"></div>
+        <div class="cursor-outline" id="cursor-outline"></div>
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <a href="#" class="logo">Krushna</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, I am</h3>
+                <h1>Krushna </h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/shreya6360/codesite" class="social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxs-envelope'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/shreya-shreya-421886227" class="social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="ak.jpg" alt="Profile Image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://wallpaperaccess.com/full/1385382.jpg" alt="About Image">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>Frontend developer with experience building single-page web applications and a knack for creating attractive user interfaces.
+                    Skilled in JavaScript, HTML, CSS, PHP, and Bootstrap.</p>
+                <a href="#" class="btn">Read More</a>   
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Motivated designer and developer with experience creating custom websites through PHP and CSS. 
+                        Strong collaboration skills and proven history of application development. DHTML and JavaScript. MS Access and MySQL.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop'></i>
+                    <h3>UI/UX Design</h3>
+                    <p>You cannot make a good design if you do not understand people; design is made for people.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt'></i>
+                    <h3>App Design</h3>
+                    <p>I'm UI/UX Designer with a great passion for my work. The main goal is to create modern, attractive and user-friendly interfaces and find creative and simple solutions for your business.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Portfolio Project 1">
+                    <div class="portfolio-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>In this project I try making my own portfolio website for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Portfolio Project 2">
+                    <div class="portfolio-layer">
+                        <h4>Dynamic Website Deployment in AWS</h4>
+                        <p>In this project I deployed a dynamic website in AWS so that we can add and delete data by connecting to databases.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Portfolio Project 3">
+                    <div class="portfolio-layer">
+                        <h4>Iris Flower Detection</h4>
+                        <p>In this project I detect the iris flower type by using machine learning prediction model. And deployed in streamlit python.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Portfolio Project 4">
+                    <div class="portfolio-layer">
+                        <h4>Traffic Analysis</h4>
+                        <p>In this project I analyze the traffic by using Java.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email Address" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number" placeholder="Mobile Number" required>
+                    <input type="text" name="Email Subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; <span id="current-year"></span> by Krushna | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- Scroll Reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- Typed JS -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        
+        <!-- Main JS -->
+        <script src="support.js"></script>
+        
+        <!-- Form Submission Script -->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
